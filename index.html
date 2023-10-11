@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorveteria do Marreco</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <label>Nome:</label>
+    <input id="nome" type="text" placeholder="Seu nome aqui"></input>
+
+    <label>Quantidade:</label>
+    <input id="quantidades" type="number" min="1" placeholder="Quantos sorvetes quer?"></input>
+
+    <label>Sabores:</label>
+    <select id="sabores">
+        <option value="">Selecione</option>
+        <option value="Chocolate">Chocolate</option>
+        <option value="Morango">Morango</option>
+        <option value="Baunilha">Baunilha</option>
+        <option value="Napolitano">Napolitano</option>
+    </select>
+
+    <button id="Lucas">Fazer pedido</button>
+ 
+    <hr>
+
+    <p id="pedidoNome"></p>
+    <p id="pedidoQuantia"></p>
+    <p id="pedidoSabor"></p>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
